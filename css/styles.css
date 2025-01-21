@@ -1,4 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+body{
+    background-color:rgb(27, 27, 51);
+}
+
 .navbar{
     background-color:rgb(27, 27, 51);
-    }
+}
+
+.lastnews{
+    background-color: rgb(27, 27, 51);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.newimg{
+    width: 200px;
+    height: 200px;
+    padding-right: 20px;
+}
+
+.news{
+    display: flex;
+    padding: 10px;
+    
+}
+
+.newstext{
+    color: aliceblue;
+    padding-top: 20px;
+}
+
+footer{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: aliceblue;
+}
+
+.three-cards{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    justify-content: center
+}
+.galary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+    
+}
+.carousel2 .carousel-item img{
+    width: 800px;
+    height: 500px;
+}
+
+.carousel2 .carousel{
+    width: 800px;
+    height: 500px;
+}
+
+.carousel2 .carousel-item{
+    color: aliceblue;
+}
+
+.footgalery{
+    margin-top: 200px;
+}
+
+
+.block h2{
+    color: aliceblue;
+}
+
+.tech-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: end;
+    gap: 20px;
+    padding: 50px;
+}
+
+.card{
+    min-height: 100%;
+   
+}
+
+.text, h1, h2, h3, h4, h5, h6{
+    font-family: 'Merriweather';
+}
+
+p, a{
+    font-family: 'Golos Text';
+}
 
